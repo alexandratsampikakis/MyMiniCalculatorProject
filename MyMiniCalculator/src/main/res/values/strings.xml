@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Mini Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="myColor">#ffffffff</color>
+    <color name="myColorYellow">#ffeeed83</color>
+    <color name="myColorPink">#ffeeaee1</color>
+    <color name="myColorBla">#ff73c9ee</color>
+    <color name="myColorGreen">#ff99ee87</color>
+    <color name="myColorBlack">#ff000000</color>
+    <color name="myTextColorWhite">#ffffffff</color>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="division">/</string>
+    <string name="equal">=</string>
+    <string name="clear">Clear</string>
+
+</resources>

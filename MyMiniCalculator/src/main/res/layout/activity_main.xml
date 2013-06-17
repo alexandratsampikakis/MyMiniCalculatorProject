@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@color/myColor">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Input"
+            android:id="@+id/textView"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_marginLeft="11dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/button"
+            android:background="@color/myColorYellow"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:textSize="40dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/button2"
+            android:background="@color/myColorGreen"
+            android:layout_alignTop="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_marginLeft="13dp"
+            android:textSize="40dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/button3"
+            android:background="@color/myColorBla"
+            android:layout_alignTop="@+id/button2"
+            android:layout_alignRight="@+id/editText"
+            android:textSize="40dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/button4"
+            android:background="@color/myColorPink"
+            android:layout_alignTop="@+id/button3"
+            android:layout_alignRight="@+id/button5"
+            android:textSize="40dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:id="@+id/button5"
+            android:background="@color/myColorBlack"
+            android:textColor="@color/myTextColorWhite"
+            android:layout_alignBaseline="@+id/editText2"
+            android:layout_alignBottom="@+id/editText2"
+            android:layout_alignRight="@+id/button6"
+            android:textSize="50dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/button6"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/editText"
+            android:layout_marginBottom="26dp"
+            android:background="@color/myColorBlack"
+            android:textColor="@color/myTextColorWhite"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine|numberDecimal|numberSigned"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/button"/>
+
+</RelativeLayout>
