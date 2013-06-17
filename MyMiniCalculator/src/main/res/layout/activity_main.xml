@@ -36,10 +36,10 @@
             android:text="+"
             android:id="@+id/button"
             android:background="@color/myColorYellow"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="17dp"
+            android:textSize="40dp"
             android:layout_below="@+id/textView"
-            android:layout_alignLeft="@+id/textView"
-            android:textSize="40dp"/>
+            android:layout_alignLeft="@+id/textView"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -58,9 +58,10 @@
             android:text="*"
             android:id="@+id/button3"
             android:background="@color/myColorBla"
+            android:textSize="40dp"
             android:layout_alignTop="@+id/button2"
-            android:layout_alignRight="@+id/editText"
-            android:textSize="40dp"/>
+            android:layout_toLeftOf="@+id/button4"
+            android:layout_marginRight="11dp"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -68,9 +69,9 @@
             android:text="/"
             android:id="@+id/button4"
             android:background="@color/myColorPink"
+            android:textSize="40dp"
             android:layout_alignTop="@+id/button3"
-            android:layout_alignRight="@+id/button5"
-            android:textSize="40dp"/>
+            android:layout_toRightOf="@+id/editText"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -79,10 +80,9 @@
             android:id="@+id/button5"
             android:background="@color/myColorBlack"
             android:textColor="@color/myTextColorWhite"
-            android:layout_alignBaseline="@+id/editText2"
-            android:layout_alignBottom="@+id/editText2"
-            android:layout_alignRight="@+id/button6"
-            android:textSize="50dp"/>
+            android:textSize="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/button2"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
             android:inputType="textMultiLine|numberDecimal|numberSigned"
             android:ems="10"
             android:id="@+id/editText2"
-            android:layout_centerVertical="true"
-            android:layout_alignLeft="@+id/button"/>
+            android:layout_alignBottom="@+id/button5"
+            android:layout_alignRight="@+id/button6"/>
 
 </RelativeLayout>

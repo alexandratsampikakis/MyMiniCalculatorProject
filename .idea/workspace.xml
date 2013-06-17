@@ -86,7 +86,7 @@
       <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyMiniCalculator/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="text-editor">
-            <state line="89" column="32" selection-start="3519" selection-end="3519" vertical-scroll-proportion="0.0" vertical-offset="1001" max-vertical-offset="1921">
+            <state line="31" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1921">
               <folding />
             </state>
           </provider>
@@ -471,7 +471,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1176" extended-state="1" />
+    <frame x="-8" y="32" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -578,7 +578,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyMiniCalculator/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
-        <state line="89" column="32" selection-start="3519" selection-end="3519" vertical-scroll-proportion="0.0" vertical-offset="1001" max-vertical-offset="1921">
+        <state line="31" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1921">
           <folding />
         </state>
       </provider>
